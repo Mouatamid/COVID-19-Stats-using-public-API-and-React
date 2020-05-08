@@ -1,0 +1,60 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#root{
+  height: 100vh;
+}
+#root div.app{
+  height: 100%;
+  display: grid;
+  grid-template-columns: 2fr 6fr;
+}
+.secondComponant{
+  background-color: rgb(201, 198, 198);
+  overflow-y: scroll;
+}
+.search{
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: 90%;
+}
+ul{
+  list-style-type: none;
+  margin-top: 30px;
+  width: 100%;
+  padding: 0em;
+}
+.country{
+  cursor: pointer;
+  padding: .6em 0em;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+.country:hover{
+  background-color: rgb(24, 24, 24);
+  color: #fff;
+}
+.active{
+  background-color: rgb(24, 24, 24);
+  color: #fff;
+}
+.mainComponant h2{
+  margin-top: 25px;
+}
+.countryInfo{
+  margin-top: 40px;
+  padding: 2em;
+}
+.countryInfo div{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.countryInfo div span{
+  font-size: 19px;
+}
